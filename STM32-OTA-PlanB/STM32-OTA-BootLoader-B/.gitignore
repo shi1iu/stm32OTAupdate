@@ -1,0 +1,36 @@
+#编译生成目录
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+*.exe/
+*.ilk
+*.pdb
+
+#构建输出文件
+*.lib
+*.a
+*.exp
+*.obj
+*.o
+
+#编辑器/IDE/配置
+.editorconfig
+
+#临时/备份文件
+~/
+*.tmp
+*.swp
+*~
+
+#cubemx 生成的文件夹
+MDK-ARM/
+
+#Listing 编译后的.map文件
+Listing
+
+#cubemx工程文件
+*.mxproject
